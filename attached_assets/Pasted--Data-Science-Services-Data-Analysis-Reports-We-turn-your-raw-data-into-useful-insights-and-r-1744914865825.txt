@@ -1,0 +1,74 @@
+
+🧠 Data Science Services
+Data Analysis & Reports – We turn your raw data into useful insights and reports to help you make smarter business decisions.
+
+Customer Behavior Tracking – Find out what your customers like and how they interact with your services.
+
+Sales & Revenue Forecasting – We use data to predict your future sales, helping you plan ahead.
+
+Dashboard Creation – Beautiful, real-time dashboards that show all your business metrics in one place.
+
+🤖 AI-Powered / Machine Learning Services
+Chatbots & Virtual Assistants (LLMs) – Smart bots that talk like humans and solve customer queries 24/7.
+
+Image/Video Analysis (Computer Vision) – AI that can detect faces, objects, and actions from images or videos.
+
+Custom AI Models – We build smart systems that can learn from your business data to make predictions or decisions.
+
+Recommendation Systems – Like Netflix or Amazon? We build systems that recommend products or services to your users.
+
+Text Analysis – Automatically understand and process customer feedback, reviews, and messages.
+
+⚙️ Automation Services
+Workflow Automation – Automate repetitive tasks like sending emails, generating reports, or updating records.
+
+Data Migration & Cleaning – Automatically shift your old data to new systems without a mess.
+
+Inventory & Billing Automation – Save time by automating your stock tracking and billing processes.
+
+Excel & File Automation – Automatically generate Excel sheets, PDFs, or merge documents using scripts.
+
+🔐 Cybersecurity Services
+Vulnerability Testing – We find weak points in your website or app before hackers do.
+
+Security Setup – Set up firewalls, encryptions, and backups to keep your data safe.
+
+Real-time Threat Monitoring – Keep your systems secure with 24/7 threat alerts and responses.
+
+Employee Security Training – Teach your team how to avoid phishing, scams, and data leaks.
+
+📱 Mobile & App Development
+Android & iOS Apps – Build smooth, fast, and user-friendly apps for your customers.
+
+Cross-platform Apps – One app that works on both Android and iPhone.
+
+App UI/UX Design – Apps that not only work well but also look amazing.
+
+API Integration – Connect your app to payment systems, maps, or other tools.
+
+☁️ Cloud Services
+Cloud Setup & Migration – Move your business online with services like AWS, Google Cloud, or Azure.
+
+Data Backup Solutions – Never lose your data with secure cloud backups.
+
+Server Management – We take care of your cloud infrastructure so it runs smoothly.
+
+Scalable App Hosting – Apps that can handle thousands of users without crashing.
+
+🌐 Web Development Services
+Custom Websites – Build beautiful websites tailored to your brand and business goals.
+
+E-commerce Stores – Online stores with payment gateways, carts, and order tracking.
+
+Portfolio or Business Sites – Showcase your work, services, or products online.
+
+SEO Optimization – Help your website appear higher in Google search results.
+
+🛠️ Custom Software Solutions
+Business-specific Tools – Software that fits your unique workflow or needs.
+
+ERP/CRM Systems – Manage your team, clients, or inventory all in one place.
+
+Booking & Ticketing Systems – Ideal for hotels, clinics, events, or travel agencies.
+
+Form Builders & Internal Tools – Any internal software your company needs, we’ll build it.
