@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom carousel styling */
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  position: relative;
+}
+
+/* Add smooth sliding effect */
+.embla__slide {
+  transition: transform 0.4s ease;
+}
+
+/* Add hover effect to carousel items */
+.service-card:hover, .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2), 0 8px 10px -6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
