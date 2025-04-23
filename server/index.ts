@@ -37,8 +37,10 @@ app.use((req, res, next) => {
 });
 
 (async () => {
-  const server = await registerRoutes(app);
+  // 🧠 Setup routes
+  await registerRoutes(app);
 
+  // 🛑 Error handler
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
@@ -47,17 +49,18 @@ app.use((req, res, next) => {
     throw err;
   });
 
-  // Only setup Vite in development
+  // 🧪 Dev or Prod build
   if (app.get("env") === "development") {
-    await setupVite(app, server);
+    await setupVite(app); // dev mode
   } else {
-    serveStatic(app);
+    serveStatic(app); // prod mode
   }
 
-  // ✅ Render requires binding to process.env.PORT and host 0.0.0.0
+  // ✅ Render-friendly port + host
   const port = parseInt(process.env.PORT || "10000", 10);
 
-  server.listen(port, "0.0.0.0", () => {
-    log(`🌐 Server running on http://0.0.0.0:${port} (${app.get("env")} mode)`);
+  // 🎯 MAIN FIX: use `app.listen()` not `server.listen()`
+  app.listen(port, "0.0.0.0", () => {
+    log(`✅ Server listening on http://0.0.0.0:${port} (${app.get("env")} mode)`);
   });
 })();
