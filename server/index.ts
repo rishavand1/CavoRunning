@@ -55,8 +55,8 @@ app.use((req, res, next) => {
   }
 
   // Port and host settings
-  const port = 5000;
-  const host = "127.0.0.1"; // changed from 0.0.0.0 to work on Windows
+  const port = process.env.PORT ? parseInt(process.env.PORT) : 5000;
+  const host = "0.0.0.0"; // changed from 0.0.0.0 to work on Windows
 
   server.listen(port, host, () => {
     log(`Server running at http://${host}:${port}`);
