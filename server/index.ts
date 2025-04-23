@@ -54,11 +54,11 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // Port and host settings
+  // ✅ UPDATED for Render compatibility
   const port = process.env.PORT ? parseInt(process.env.PORT) : 5000;
-  const host = "0.0.0.0"; // changed from 0.0.0.0 to work on Windows
+  const host = "0.0.0.0";
 
   server.listen(port, host, () => {
-    log(`Server running at http://${host}:${port}`);
+    log(`🌐 Server running at http://${host}:${port} in ${app.get("env")} mode`);
   });
 })();
