@@ -54,11 +54,10 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // ✅ UPDATED for Render compatibility
-  const port = process.env.PORT ? parseInt(process.env.PORT) : 5000;
-  const host = "0.0.0.0";
+  // ✅ Render requires binding to process.env.PORT and host 0.0.0.0
+  const port = parseInt(process.env.PORT || "10000", 10);
 
-  server.listen(port, host, () => {
-    log(`🌐 Server running at http://${host}:${port} in ${app.get("env")} mode`);
+  server.listen(port, "0.0.0.0", () => {
+    log(`🌐 Server running on http://0.0.0.0:${port} (${app.get("env")} mode)`);
   });
 })();
